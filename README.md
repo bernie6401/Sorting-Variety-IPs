@@ -48,3 +48,10 @@ yahoo.com
 {Solo IP}
 ```
 
+## How to use
+
+```bash
+$ python convert_filter_to_ip_range.py -io {path to list_original} -iws {path to list_ip_range_with_star} -ir {path to list_ip_range}
+$ python convert_filter_to_ip_range.py -io Test/list_original -iws Test/list_ip_range_with_star -ir Test/list_ip_range
+```
+
