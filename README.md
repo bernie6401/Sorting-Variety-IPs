@@ -55,3 +55,6 @@ $ python convert_filter_to_ip_range.py -io {path to list_original} -iws {path to
 $ python convert_filter_to_ip_range.py -io Test/list_original -iws Test/list_ip_range_with_star -ir Test/list_ip_range
 ```
 
+## Future Wok
+
+其實只要稍微修改一下，就可以把IP range的部分變成以CIDR的方式呈現，就看後續有沒有需要這個功能，也可以加進去argument裡面給user自行選擇要轉換成哪一種
